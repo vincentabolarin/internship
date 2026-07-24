@@ -3,12 +3,207 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Frontend Engineering</title>
+  <!-- <style>
+    h3 {
+      color: green;
+    }
+  </style> -->
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- <script src="script.js" defer></script> -->
 </head>
-<body>
+<body style="background-color: blanchedalmond;">
+  <div id="week2">
+    <div>
+      <div class="cards">
+        <p class="card">First Card</p>
+        <p class="card card2">Second Card</p>
+        <p class="card">Third Card</p>
+      </div>
+    </div>
+    <div class="semantic">
+      <h2>Semantic HTML</h2>
+      <header></header>
+      <nav></nav>
+      <main>
+        <section>
+          <h3>Groups</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa maiores ea voluptatum, rem esse obcaecati dicta sit praesentium sapiente optio nihil est eveniet? Eligendi fugit deserunt quas perspiciatis dolores esse omnis ducimus consequuntur vel, soluta nostrum voluptatem error eos laboriosam, quisquam nulla dignissimos molestiae impedit labore officiis. Rem, quo.</p>
+        </section>
+
+        <button>Click me!</button>
+        <button class="second-button">Click me also!</button>
+        <!-- <div aria-label="button" style="border: 2px solid black; background-color: lightgray; border-radius: 10px;">Button</div> -->
+        <article>
+          <h2>First paragraph</h2>
+          <p>Second paragraph</p>
+          <p>Third paragraph</p>
+          <p>Last paragraph</p>
+        </article>
+        <aside>
+          <p>This is an aside.</p>
+        </aside>
+
+        <h2 class="end">The End</h2>
+        <p>This is the end of the content.</p>
+      </main>
+      <footer></footer>
+    </div>
+    <div>
+      <h2>Forms</h2>
+      <p>This section is about forms.</p>
+
+      <form action="index.html" method="GET">
+        <label class="special-label" for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="full-name">
+        <br><br>
+
+        <label for="email" class="special-label">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+
+        <label class="password" for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+
+        <label id="age-label" for="age">Age</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+
+        <label for="phone">
+          Phone Number
+          <input type="tel" name="phone" id="phone">
+        </label>
+        <br><br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        
+        <p>Favourite Drinks</p>
+        <input type="checkbox" name="coffee" id="coffee">
+        <label for="coffee">coffee</label>
+        <br>
+        <input type="checkbox" name="tea" id="tea">
+        <label for="tea">Tea</label>
+        <br>
+        <input type="checkbox" name="zobo" id="zobo">
+        <label for="zobo">Zobo</label>
+        <br><br>
+
+        <p>Gender</p>
+        <input type="radio" name="gender" id="">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="prefer-not-to-say">
+        <label for="prefer-not-to-say">Prefer not to say</label>
+        <br><br>
+
+        <select name="pet" id="">
+          <option value="">Dog</option>
+          <option value="">Cat</option>
+          <option value="">Goat</option>
+        </select>
+        <br><br>
+
+        <textarea name="comment" id=""></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button disabled="disabled">Disabled</button>
+      </form>
+    </div>
+  </div>
+
+  <hr>
   <h1>Week 1</h1>
   <p>This is the content of week 1.</p>
   <p>Thank you for reading!</p>
   <p>- Vincent</p>
+
+  <div id="table-of-contents">
+    <h2>Table of Contents</h2>
+    <p><a href="#heading1">Heading 1</a></p>
+    <p><a href="#heading2">Heading 2</a></p>
+    <p><a href="#heading3">Heading 3</a></p>
+    <p><a href="#heading4">Heading 4</a></p>
+    <p><a href="#heading5">Heading 5</a></p>
+    <p><a href="#heading6">Heading 6</a></p>
+    <p><a href="#heading7">Heading 7</a></p>
+    <p><a href="#heading8">Heading 8</a></p>
+  </div>
+
+  <h2 id="heading1">Heading 1</h2>
+  <p>This is the second heading.</p>
+  <h2 id="heading2">Heading 2</h2>
+  <h3>Sub-heading 1</h3>
+  <p>This is the first sub-heading.</p>
+  <h3>Sub-heading 2</h3>
+  <p>This is the second sub-heading.</p>
+
+  <h2 id="heading3">Heading 3</h2>
+  <p>This is the second heading.</p>
+  <h2 id="heading4">Heading 4</h2>
+  <h3>Sub-heading 1</h3>
+  <p>This is the first sub-heading.</p>
+  <h3>Sub-heading 2</h3>
+  <p>This is the second sub-heading.</p>
+
+  <h2 id="heading5">Heading 5</h2>
+  <p>This is the second heading.</p>
+  <h2 id="heading6">Heading 6</h2>
+  <h3>Sub-heading 1</h3>
+  <p>This is the first sub-heading.</p>
+  <h3>Sub-heading 2</h3>
+  <p>This is the second sub-heading.</p>
+
+  <h2 id="heading7">Heading 7</h2>
+  <p>This is the second heading.</p>
+  <h2 id="heading8">Heading 8</h2>
+  <h3>Sub-heading 1</h3>
+  <p>This is the first sub-heading.</p>
+  <h3>Sub-heading 2</h3>
+  <p>This is the second sub-heading.</p>
+
+  <h2>Links</h2>
+  <p>This is the <a href="https://google.com" target="_blank">Google website</a>.</p>
+
+  <div id="images">
+    <img src="code-on-screen-unsplash.jpg" alt="This is an image of code on screen">
+  </div>
+
+  <div id="lists">
+    <h2>Lists</h2>
+    <h3>Unordered List of Food Items</h3>
+    <ul>
+      <li>
+        Rice
+        <ol>
+          <li>Ofada Rice</li>
+          <li>Jollof Rice
+            <ul>
+              <li>Palm oil rice</li>
+              <li>Party jollof</li>
+              <li>Concoction rice</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li>Beans</li>
+      <li>Eba</li>
+    </ul>
+
+    <h3>Ordered List of Drinks</h3>
+    <ol>
+      <li>Coke</li>
+      <li>Fanta</li>
+      <li>7Up</li>
+    </ol>
+  </div>
 </body>
 </html>

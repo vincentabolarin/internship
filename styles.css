@@ -1,3 +1,90 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: yellow;
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+}
+
+.semantic p {
+  color: rgb(0, 104, 60);
+}
+
+div p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+}
+
+h2 {
+  background-color: rgb(0, 34, 255);
+  color: white;
+}
+
+h2+p {
+  font-weight: 600;
+}
+
+.end+p {
+  background-color: aqua;
+}
+
+p {
+  color: orange;
+}
+
+.special-label {
+  color: purple;
+  font-weight: bold;
+}
+
+.password {
+  color: red;
+}
+
+#age-label {
+  color: green;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: white;
+}
+
+button {
+  width: 200px;
+  cursor: pointer;
+  padding-block-start: 30px;
+  border: 20px solid green;
+  margin: 40px;
+}
+
+button:hover {
+  background-color: green;
+  color: yellow;
+}
+
+a:hover {
+  background-color: cyan;
+}
+
+/* p:first-child {
+  background-color: pink;
+}
+
+p:nth-child(3) {
+  background-color: aquamarine;
+}
+
+p:last-child {
+  background-color: chartreuse;
+} */
+
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 40px;
+  width: 30%;
 }
