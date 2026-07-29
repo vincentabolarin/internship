@@ -3,10 +3,48 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 40px;
-  width: 80%;
+/* body {
+  width: 90%;
   margin: auto;
+} */
+
+nav {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: yellow;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.nav-items a {
+  color: white;
+}
+
+.nav-items a:hover {
+  color: yellow;
+}
+
+img {
+  max-width: 100%;
 }
 
 .semantic p {
@@ -15,7 +53,7 @@ body {
 
 div p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: brown;
+  /* color: brown; */
 }
 
 h2 {
@@ -31,9 +69,9 @@ h2+p {
   background-color: aqua;
 }
 
-p {
+/* p {
   color: orange;
-}
+} */
 
 .special-label {
   color: purple;
@@ -64,9 +102,9 @@ button:hover {
   color: yellow;
 }
 
-a:hover {
+/* a:hover {
   background-color: cyan;
-}
+} */
 
 /* p:first-child {
   background-color: pink;
@@ -80,11 +118,90 @@ p:last-child {
   background-color: chartreuse;
 } */
 
-.card {
+.cards1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 600px;
+  background-color: plum;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  /* height: 300px; */
   background-color: white;
+}
+
+.cards3 {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-color: white;
+}
+
+.cards4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards5 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards6 {
+  display: flex;
+  gap: 20px;
+}
+
+.cards7 {
+  display: flex;
+  width: 100%;
+}
+
+.card {
   padding: 40px;
   border-radius: 10px;
   border: 1px solid gray;
   margin-bottom: 40px;
-  width: 30%;
+  height: fit-content;
+  /* width: 30%; */
+}
+
+.card1 {
+  background-color: aquamarine;
+}
+
+.card2 {
+  background-color: orange;
+}
+
+.card3 {
+  background-color: lightgreen;
+}
+
+.card4 {
+  background-color: hotpink;
+}
+
+.cards6 .card1 {
+  /* flex-grow: 1; */
+  flex: 1;
+}
+
+.cards6 .card2 {
+  /* flex-grow: 1; */
+  flex: 1;
+}
+
+.cards6 .card3 {
+  /* flex-grow: 2; */
+  flex: 1;
+}
+
+.cards7 .card1 {
+  flex-shrink: 1;
 }
